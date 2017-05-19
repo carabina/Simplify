@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/Simplify.svg?style=flat)](http://cocoapods.org/pods/Simplify)
 [![Platform](https://img.shields.io/cocoapods/p/Simplify.svg?style=flat)](http://cocoapods.org/pods/Simplify)
 
-My 'go to' pack of extensions 
+My 'go to' pack of Swift extensions of most usable Foundation and UIKit classes.
 
 ## Installation
 
