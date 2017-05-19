@@ -1,15 +1,14 @@
 # Simplify
 
-[![CI Status](http://img.shields.io/travis/alexshubin22@gmail.com/Simplify.svg?style=flat)](https://travis-ci.org/alexshubin22@gmail.com/Simplify)
 [![Version](https://img.shields.io/cocoapods/v/Simplify.svg?style=flat)](http://cocoapods.org/pods/Simplify)
 [![License](https://img.shields.io/cocoapods/l/Simplify.svg?style=flat)](http://cocoapods.org/pods/Simplify)
 [![Platform](https://img.shields.io/cocoapods/p/Simplify.svg?style=flat)](http://cocoapods.org/pods/Simplify)
 
+My 'go to' pack of extensions 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 

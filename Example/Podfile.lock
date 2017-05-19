@@ -1,0 +1,16 @@
+PODS:
+  - Simplify (0.1.0)
+
+DEPENDENCIES:
+  - Simplify (from `../`)
+
+EXTERNAL SOURCES:
+  Simplify:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Simplify: 360a790b29396df98983366ffc9d15538cf49ce5
+
+PODFILE CHECKSUM: 704d4376107886492ea783f7c3a739cc5969e9c0
+
+COCOAPODS: 1.2.1

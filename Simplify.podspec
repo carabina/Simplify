@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Simplify'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Simplify.'
+  s.summary          = 'GoTo Extensions'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Popular extensions which make coding easier.
                        DESC
 
-  s.homepage         = 'https://github.com/alexshubin22@gmail.com/Simplify'
+  s.homepage         = 'https://github.com/alexshubin/Simplify'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'alexshubin22@gmail.com' => 'a.shubin@be-interactive.ru' }
-  s.source           = { :git => 'https://github.com/alexshubin22@gmail.com/Simplify.git', :tag => s.version.to_s }
+  s.author           = { 'alexshubin22@gmail.com' => 'alexshubin22@gmail.com' }
+  s.source           = { :git => 'https://github.com/alexshubin/Simplify.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

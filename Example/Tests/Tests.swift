@@ -1,29 +1,30 @@
 import UIKit
 import XCTest
-import Simplify
+@testable import Simplify
 
 class Tests: XCTestCase {
     
+    var stringUnderTest: String!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        stringUnderTest = "testing"
+        
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+        stringUnderTest = nil
+        
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testSubstring1() {
+        
+        let str = stringUnderTest.substring(from: 1, to: 3)
+        
+        XCTAssertEqual(str, "est")
     }
     
 }
