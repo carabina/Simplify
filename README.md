@@ -17,7 +17,7 @@ pod "Simplify"
 
 ## Author
 
-alexshubin22@gmail.com
+Alex Shubin
 
 ## License
 
