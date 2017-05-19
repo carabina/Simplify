@@ -6,10 +6,6 @@
 
 My 'go to' pack of extensions 
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Installation
 
 Simplify is available through [CocoaPods](http://cocoapods.org). To install
@@ -21,7 +17,7 @@ pod "Simplify"
 
 ## Author
 
-alexshubin22@gmail.com, a.shubin@be-interactive.ru
+alexshubin22@gmail.com
 
 ## License
 
