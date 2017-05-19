@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Simplify_Tests' do
+  pod 'Simplify', :path => '../'
+  
+  
+end
