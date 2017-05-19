@@ -1,4 +1,10 @@
-
+//
+//  SimplifyUIViewController.swift
+//  Pods
+//
+//  Created by Alex Shubin on 19.05.17.
+//
+//
 
 extension UIViewController {
     

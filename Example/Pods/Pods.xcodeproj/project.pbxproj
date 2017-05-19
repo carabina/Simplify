@@ -10,9 +10,9 @@
 		4A716AAA15F137538575BF04A6F43A9B /* Pods-Simplify_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A39A5780E6E3549BD2BA9A25EE8C58 /* Pods-Simplify_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C071FCF5C5D972378C56BAF9593F039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		71642E6B1ECEC4C100AAA1E3 /* SimplifyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71642E6A1ECEC4C100AAA1E3 /* SimplifyString.swift */; };
-		71642E6D1ECEC4DA00AAA1E3 /* SimplifyUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71642E6C1ECEC4DA00AAA1E3 /* SimplifyUIColor.swift */; };
 		71642E6F1ECEC4DF00AAA1E3 /* SimplifyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71642E6E1ECEC4DF00AAA1E3 /* SimplifyDictionary.swift */; };
 		71642E711ECEC5A400AAA1E3 /* SimplifyUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71642E701ECEC5A400AAA1E3 /* SimplifyUIViewController.swift */; };
+		71642E731ECEC91600AAA1E3 /* SimplifyCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71642E721ECEC91600AAA1E3 /* SimplifyCGRect.swift */; };
 		8759AD36223EBB51ECD760C7C9D9D6E3 /* Pods-Simplify_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 328D12E0DC576EEFAD353A2B8009EC88 /* Pods-Simplify_Tests-dummy.m */; };
 		C82F18971EDB4C1C7BB4C32C69DB86F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E067D01D8BCE7AB9FE235BA8CB4799E3 /* Simplify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F999CACA34C9AB1EC726D21ACF1065 /* Simplify-dummy.m */; };
@@ -38,9 +38,9 @@
 		5192436504F968A1225679313FCE014D /* Simplify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Simplify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		71642E6A1ECEC4C100AAA1E3 /* SimplifyString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyString.swift; sourceTree = "<group>"; };
-		71642E6C1ECEC4DA00AAA1E3 /* SimplifyUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyUIColor.swift; sourceTree = "<group>"; };
 		71642E6E1ECEC4DF00AAA1E3 /* SimplifyDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyDictionary.swift; sourceTree = "<group>"; };
 		71642E701ECEC5A400AAA1E3 /* SimplifyUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyUIViewController.swift; sourceTree = "<group>"; };
+		71642E721ECEC91600AAA1E3 /* SimplifyCGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyCGRect.swift; sourceTree = "<group>"; };
 		74F999CACA34C9AB1EC726D21ACF1065 /* Simplify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Simplify-dummy.m"; sourceTree = "<group>"; };
 		75BA265F98CD0F6DFB9EF95DA7AB56F4 /* Simplify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simplify-umbrella.h"; sourceTree = "<group>"; };
 		7A7DB4AC7EC99CE58EEC3924805C6622 /* Pods-Simplify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simplify_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				71642E6A1ECEC4C100AAA1E3 /* SimplifyString.swift */,
-				71642E6C1ECEC4DA00AAA1E3 /* SimplifyUIColor.swift */,
 				71642E6E1ECEC4DF00AAA1E3 /* SimplifyDictionary.swift */,
 				71642E701ECEC5A400AAA1E3 /* SimplifyUIViewController.swift */,
+				71642E721ECEC91600AAA1E3 /* SimplifyCGRect.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,8 +286,8 @@
 				E067D01D8BCE7AB9FE235BA8CB4799E3 /* Simplify-dummy.m in Sources */,
 				71642E6B1ECEC4C100AAA1E3 /* SimplifyString.swift in Sources */,
 				71642E711ECEC5A400AAA1E3 /* SimplifyUIViewController.swift in Sources */,
+				71642E731ECEC91600AAA1E3 /* SimplifyCGRect.swift in Sources */,
 				71642E6F1ECEC4DF00AAA1E3 /* SimplifyDictionary.swift in Sources */,
-				71642E6D1ECEC4DA00AAA1E3 /* SimplifyUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
